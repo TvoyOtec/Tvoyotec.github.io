@@ -1,0 +1,170 @@
+.button{
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:25px;
+	padding-top:15px;
+	border:2px solid red;
+	padding-bottom:15px;
+	background-color:red;
+}
+
+.Message{
+ background-color:#a81717;
+ color:#f20000;
+ border:2px solid;
+ margin-bottom:50px;
+ margin-right:100px;
+ margin-left:50px;
+ margin-top:35px;
+ padding:5px;
+}
+
+#leave{
+	font-size:35px;
+	border:2px solid;
+	color:green;
+	margin-left:525px;
+	padding:10px;
+	text-decoration:none;
+}
+
+#leave:hover{
+	color:blue;
+	border:4px solid
+}
+
+table{
+ background-color:red;
+ color:yellow;
+ margin-top:50px;
+ text-align:center;
+ margin-left:550px;
+}
+
+#bgpm{
+ background-color:red;
+ color:yellow;
+ border:2px solid;
+ width:650px;
+ margin-left:300px;
+ margin-top:100px;
+ font-size:50px;
+ box-shadow:33px 33px 117px #000000;
+ padding-left:25px;
+ margin-bottom:50px;
+ transform:scale(1.5);
+}
+
+.web{
+	color:yellow;
+	font-size:14px;
+}
+
+.web:hover{
+	color:#ba9941;
+}
+
+body { 
+background-color:#fff; 
+}
+
+#info{
+	border:1px solid #f92900;
+	background-color:red;
+	padding-left:450px;
+	padding-bottom:35px;
+	padding-top:35px;
+	font-size:20px;
+	color:yellow;
+}
+
+#h{
+	font-size:25px;
+}
+
+#Quote{
+	font-size:15px;
+}
+
+#Secretary{
+	background-color:#b7b4ae;
+	text-align:center;
+}
+
+#BGI{
+	background-color:#b7b4ae;
+	text-align:center;
+}
+
+.Phone{
+ font-size:30px;
+}
+
+.price{
+	font-size:28px;
+    margin-bottom:50px;
+	margin-top:15px;
+}
+
+.ssilka{
+	color:#3554ba;
+	text-decoration:none;
+}
+
+.ssilka:hover{
+	color:blue;
+	text-decoration:underline;
+}
+
+.Zag{
+    text-align:center;
+	font-size:30px;
+	text-decoration:underline;
+}
+
+.har2{
+	font-size:20px;
+}
+
+.price2{
+	font-size:30px;
+	margin-left:140px;
+}
+
+.har{
+	color:#fff;
+	text-align:center;
+	border:2px solid #af493d;
+	background-color:#af493d;
+	padding: 15px;
+}
+
+.PhoneWWW{
+	font-size:30px;
+	border:2px solid;
+	margin-top:40px;
+}
+
+#PhoneInfo{
+	font-size:25px;
+}
+
+#Fraza{
+	text-align:center;
+	border:2px solid;
+	font-weight:600px;
+	padding-top:30px;
+	padding-bottom:30px;
+	color:blue;
+	width:30%;
+	margin-left:430px;
+	margin-top:50px;
+	font-size:34px;
+}
+
+
+#Fraza:hover{
+	color:yellow;
+	background-color:red;
+}
+
