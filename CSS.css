@@ -76,6 +76,7 @@ background-color:#fff;
 	padding-top:35px;
 	font-size:20px;
 	color:yellow;
+	margin-top:20px;
 }
 
 #h{
@@ -167,4 +168,23 @@ background-color:#fff;
 	color:yellow;
 	background-color:red;
 }
+
+#panel{
+	font-size:20px;
+	color:yellow;
+	borber:2px solid red;
+	background-color:red;
+	margin-top:50px;
+}
+
+#teh{
+	text-decoration:none;
+	color:yellow;
+}
+
+#teh:hover{
+	text-decoration:underline;
+	color:blue;
+}
+
 
