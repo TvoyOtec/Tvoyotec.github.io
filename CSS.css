@@ -1,23 +1,38 @@
 #button{
+  text-align: center;
+}
 
+.web{
+	color:yellow;
+	font-size:14px;
+}
+
+.Jahny {
+	background: red;
+	width: 215px;
+	height: 175px;
+	margin: 30px auto 30px auto;
 }
 
 .Message{
+ width: 82%;
  background-color:#a81717;
  color:#f20000;
  border:2px solid;
+ margin: auto;
  margin-bottom:50px;
- margin-right:100px;
- margin-left:50px;
  margin-top:35px;
  padding:5px;
+ font-size: 13.5px;
 }
 
 #leave{
 	font-size:35px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 25px; 
 	border:2px solid;
 	color:green;
-	margin-left:1050px;
 	padding:10px;
 	text-decoration:none;
 }
@@ -39,19 +54,12 @@ table{
  background-color:red;
  color:yellow;
  border:2px solid;
- width:650px;
- margin-left:300px;
- margin-top:100px;
- font-size:50px;
+ width: 85%;
+ font-size:80px;
  box-shadow:33px 33px 117px #000000;
- padding-left:25px;
- margin-bottom:120px;
- transform:scale(1.5);
-}
-
-.web{
-	color:yellow;
-	font-size:14px;
+ padding:25px;
+ text-align: center;
+ margin: 100px auto 120px auto
 }
 
 .web:hover{
@@ -60,17 +68,18 @@ table{
 
 body { 
 background-color:#fff; 
+margin:0;
 }
 
 #info{
 	border:1px solid #f92900;
 	background-color:red;
-	padding-left:450px;
 	padding-bottom:35px;
 	padding-top:35px;
 	font-size:20px;
 	color:yellow;
 	margin-top:20px;
+	text-align: center;
 }
 
 #h{
@@ -116,6 +125,7 @@ background-color:#fff;
     text-align:center;
 	font-size:30px;
 	text-decoration:underline;
+	margin-top:25px;
 }
 
 .har2{
@@ -153,10 +163,10 @@ background-color:#fff;
 	padding-top:30px;
 	padding-bottom:30px;
 	color:blue;
-	width:30%;
-	margin-left:430px;
-	margin-top:50px;
 	font-size:34px;
+     width: 550px;
+	height: 50px;
+	margin: 30px auto 30px auto;
 }
 
 
@@ -184,12 +194,33 @@ background-color:#fff;
 }
 
 .button2{
-	margin-left:150px;
 	color:red;
+	margin-right: 15px;
 	border:2px solid;
-	font-size:20px;
+	font-size:40px;
 	text-decoration:none;
 	margin-bottom:50px;
+	padding: 3px;
+}
+@media (min-width: 768px) {
+	.button2 {
+		font-size:25px;
+	}
+	#bgpm {
+		font-size: 50px;
+		width: 650px;
+	}
+	.Jahny {
+		width: 120px;
+	    height: 75px;
+	}
+	.jahnyP {
+		font-size: 15px;
+		padding: 1.5px;
+	}
+	.Message {
+		font-size: 16.5px;
+	
 }
 
 .button2:hover{
@@ -203,6 +234,3 @@ background-color:#fff;
 	border:8px double black;
 }
 
-body {
-margin:0;
-}
