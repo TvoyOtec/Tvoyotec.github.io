@@ -201,6 +201,8 @@ background-color:#fff;
 	margin-top:43px;
 	padding-left:200px;
 	border:8px double black;
-	color:blue;
 }
 
+body {
+margin:0;
+}
