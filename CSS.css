@@ -1,11 +1,5 @@
-.button{
-	text-align:center;
-	margin-top:50px;
-	margin-bottom:25px;
-	padding-top:15px;
-	border:2px solid red;
-	padding-bottom:15px;
-	background-color:red;
+#button{
+
 }
 
 .Message{
@@ -23,7 +17,7 @@
 	font-size:35px;
 	border:2px solid;
 	color:green;
-	margin-left:525px;
+	margin-left:1050px;
 	padding:10px;
 	text-decoration:none;
 }
@@ -51,7 +45,7 @@ table{
  font-size:50px;
  box-shadow:33px 33px 117px #000000;
  padding-left:25px;
- margin-bottom:50px;
+ margin-bottom:120px;
  transform:scale(1.5);
 }
 
@@ -99,6 +93,7 @@ background-color:#fff;
 
 .Phone{
  font-size:30px;
+ margin-top:40px;
 }
 
 .price{
@@ -148,6 +143,7 @@ background-color:#fff;
 
 #PhoneInfo{
 	font-size:25px;
+	margin-top:40px;
 }
 
 #Fraza{
@@ -184,7 +180,27 @@ background-color:#fff;
 
 #teh:hover{
 	text-decoration:underline;
-	color:blue;
+	color:orange;
 }
 
+.button2{
+	margin-left:150px;
+	color:red;
+	border:2px solid;
+	font-size:20px;
+	text-decoration:none;
+	margin-bottom:50px;
+}
+
+.button2:hover{
+	color:green;
+}
+
+.news{
+	font-size:20px;
+	margin-top:43px;
+	padding-left:200px;
+	border:8px double black;
+	color:blue;
+}
 
