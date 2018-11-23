@@ -9,7 +9,7 @@
 	text-align:center;
 	border:1px solid;
 	width:250px;
-	haight:150px;
+	height:150px;
 	margin: 20px auto 5px auto;
 	background-color:#fff;
 }
@@ -41,15 +41,12 @@
 	float: right;
 	margin-right: 50px;
 	margin-top: 25px; 
-	border:2px solid;
-	color:green;
 	padding:10px;
 	text-decoration:none;
 }
 
 #leave:hover{
-	color:blue;
-	border:3px solid;
+	
 }
 
 #bgpm{
@@ -270,7 +267,11 @@ margin:0;
 	}
 	#White{
 	font-size:6px;
-}
+	}
+	#leave{
+	font-size:25px;	
+	}
+
 	}
 
 .button2:hover{
@@ -291,20 +292,31 @@ margin:0;
 
 #White{
 	color:#353535;
-	padding:10px;
 	text-decoration:none;
-		border:2px solid;
-		margin-left:10px;
-		background-color:#fff;
-		font-size:18px;
+		margin-left:20px;
+		font-size:30px;
+		border:6px solid #76797f;
+		color:#fff;
+		background-color:black;
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-left:15px;
+		padding-right:15px;
 }
 
-#White:hover{
-	color:#212020;
-	border:3px solid;
-}
+#White:hover{  
+  border:7px solid #76797f;
+  color:balck;
+  background-color:#76797f;
+  transition-duration:.4s;
+  }
 
 .zdes{
 		font-weight: 600;
 	border:10px double;
+}
+
+#wg{
+	margin-bottom:25px;
+	margin-top:25px;
 }

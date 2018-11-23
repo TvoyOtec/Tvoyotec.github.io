@@ -39,15 +39,12 @@
 	float: right;
 	margin-right: 50px;
 	margin-top: 25px; 
-	border:2px solid;
-	color:#cdf7cd;
 	padding:10px;
 	text-decoration:none;
 }
 
 #leave:hover{
-	color:#edf7ed;
-	border:3px solid;
+	
 }
 
 #bgpm{
@@ -68,7 +65,7 @@
 }
 
 body { 
-background-color:black; 
+background-image:url("https://i1.wallbox.ru/wallpapers/main/201133/temno-ochen-temno-f3cbb64.jpg"); 
 margin:0;
 }
 
@@ -239,6 +236,9 @@ margin:0;
 	#White{
 	font-size:6px;
 }
+	#leave{
+	font-size:25px;	
+	}
 	}
 
 	@media (max-width: 768px) {
@@ -280,9 +280,10 @@ margin:0;
 
 
 .button2:hover{
-	font-weight: 600;
-	border:5px inset;
-	transition-duration: .3s;
+	color:black;
+	border:5px inset #fff;
+	background-color:#fff;
+	transition-duration: .4s;
 }
 
 .news{
@@ -291,7 +292,7 @@ margin:0;
 	border:8px double #545654;
 	width:700px;
    	text-align:center;
-    color:#9a9e9a;
+    color:#b0b2b7;
 	font-weight:600;
 }
 
