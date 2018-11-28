@@ -282,10 +282,10 @@ margin:0;
 		font-size: 16.5px;
 	}
 	.news {
-		padding-left:50px;
-		padding-right:50px;
-		padding-top:70px;
-		padding-bottom:70px;
+		padding-left:40px;
+		padding-right:40px;
+		padding-top:50px;
+		padding-bottom:30px;
 	}
 	#White{
 		font-size:6px;
@@ -309,15 +309,14 @@ margin:0;
 }
 
 .news{
-	font-size:20px;
+	font-size:30px;
 	margin-top:40px;
-	border:8px double #545654;
-	width:700px;
-   	text-align:center;
-    color:#b0b2b7;
-	font-weight:600;
+	border:8px double;
+	width:900px;
+	height:200px;
+	text-align:center;
+	background-color:#fff;
 }
-
 .cW{
 	color:White;
 }
