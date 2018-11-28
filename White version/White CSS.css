@@ -225,7 +225,7 @@ margin:0;
 	margin-bottom:50px;
 	padding: 3px;
 }
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 	.button2 {
 		font-size:35px;
 	}
@@ -254,7 +254,7 @@ margin:0;
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 	.button{
 		padding-bottom:50px;
 		padding-top:50px;
@@ -282,9 +282,10 @@ margin:0;
 		font-size: 16.5px;
 	}
 	.news {
-		font-size:100px;
-		height:150px;
-		margin:auto;
+		padding-left:50px;
+		padding-right:50px;
+		padding-top:70px;
+		padding-bottom:70px;
 	}
 	#White{
 		font-size:6px;
