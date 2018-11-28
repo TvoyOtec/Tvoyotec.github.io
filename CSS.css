@@ -5,6 +5,22 @@
   padding-bottom:15px;
 }
 
+.picture{
+float:right;
+margin-top:5px;
+}
+
+.viet{
+float:right;
+font-size:20px;
+margin-bottom:5px;
+}
+
+.bg{
+font-size:20px;
+margin-bootom:5px;
+}
+
 #table{
 	text-align:center;
 	border:1px solid;
@@ -59,7 +75,7 @@
  padding:25px;
  text-align: center;
  margin: 100px auto 120px auto;
- transform:scale(1.3 );
+ transform:scale(1.3);
 }
 
 .web:hover{
@@ -67,7 +83,7 @@
 }
 
 body { 
-background-image:url("https://pp.userapi.com/c850124/v850124244/77b58/dlOgjl3T5xI.jpg"); 
+background-color:White;
 margin:0;
 }
 
@@ -97,8 +113,9 @@ margin:0;
 }
 
 #BGI{
-	background-color:#b7b4ae;
+	background-color:#c1c0bf;
 	text-align:center;
+	font:22pt/25pt sans-serif;
 }
 
 .Phone{
@@ -107,10 +124,10 @@ margin:0;
 }
 
 .price{
-	font-size:28px;
     margin-bottom:50px;
 	margin-top:15px;
 	text-decoration:underline;
+	font: bold 28px serif;
 }
 
 .ssilka{
@@ -131,11 +148,12 @@ margin:0;
 
 .har2{
 	font-size:20px;
+	margin-left:5px;
 }
 
 .price2{
-	font-size:30px;
 	margin-left:140px;
+	font: normal small-caps 35px/17px fantasy;
 }
 
 .har{
@@ -152,8 +170,7 @@ margin:0;
 	margin-top:40px;
 }
 
-#PhoneInfo{
-	font-size:25px;
+.PhoneInfo{
 	margin-top:40px;
 	background-color:#fff;
 }
@@ -204,7 +221,7 @@ margin:0;
 	padding: 3px;
 	background-color:#fff;
 }
-@media (min-width: 768px) {
+@media (min-width: 900px) {
 	.button2 {
 		font-size:35px;
 	}
@@ -232,47 +249,50 @@ margin:0;
 	font-size:6px;
 }
 	}
+@media (max-width: 900px) {
+.button{
+	padding-bottom:50px;
+	padding-top:50px;
+}
 
-	@media (max-width: 768px) {
-	.button{
-		padding-bottom:50px;
-		padding-top:50px;
-	}
-	
-	.button2 {
-		font-size:30px;
-		width:200px;
-		padding-bottom:10px;
-		padding-top:10px;
-	}
-	#bgpm {
-		font-size: 50px;
-		width: 500px;
-	}
-	.Jahny {
-		width: 120px;
-	    height: 75px;
-	}
-	.web {
-		font-size: 20px;
-		padding: 2.0px;
-	}
-	.Message {
-		font-size: 16.5px;
-	}
-	.news {
-		font-size:30px;
-		width:400px;
+.button2 {
+	font-size:30px;
+	width:200px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#bgpm {
+	font-size: 50px;
+	width: 500px;
+}
+#table {
+	width: 300px;
+	height: 175px;
+}
+.web {
+	font-size: 30px;
+	padding: 2.0px;
+}
+.Message {
+	font-size: 16.5px;
+}
+.news {
+	font-size:100px;
 	height:150px;
-	}
-	#White{
+	margin:auto;
+}
+#White{
 	font-size:6px;
-	}
-	#leave{
-	font-size:25px;	
-	}
-
-	}
+}
+#leave{
+	font-size:25px;
+}
+#adapt{
+	height:150px;
+	margin-left:45px;
+	width:170px;
+}
+}
 
 .button2:hover{
 	border:5px inset red;
